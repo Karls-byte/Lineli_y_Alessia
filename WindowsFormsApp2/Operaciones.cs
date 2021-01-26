@@ -8,5 +8,21 @@ namespace WindowsFormsApp2
 {
     class Operaciones
     {
+        public double Suma(double a, double b) 
+        {
+            return a + b;
+        }
+        public double Resta(double a, double b)
+        {
+            return a - b;
+        }
+        public double Multiplicación(double a, double b)
+        {
+            return a * b;
+        }
+        public double División(double a, double b)
+        {
+            return a / b;
+        }
     }
 }
