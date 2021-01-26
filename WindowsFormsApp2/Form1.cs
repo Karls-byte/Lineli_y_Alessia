@@ -12,7 +12,7 @@ namespace WindowsFormsApp2
 {
     public partial class Form1 : Form
     {
-         public partial class Form1 : Form
+        static Operaciones op = new Operaciones();
         public Form1()
         {
             InitializeComponent();
